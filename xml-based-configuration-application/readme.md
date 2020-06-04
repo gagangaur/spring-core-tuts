@@ -7,19 +7,19 @@
 
 **>>	IOC(Inversion of Control) : IOC means Inversion of Control. It means, rather than we creating the java objects, spring will create the objects.**
 
-####> Types of dependencies:
->> Literal dependencies **int i**
+## Types of dependencies:
+### Literal dependencies **(int i)**
 
->> Object dependencies **Object obj**
+### Object dependencies **(Object obj)**
 
 ### > Bean Creation
->> **<bean id="vehicle" class="com.transport.Bus" />** (using xml based configuration)
+**<bean id="vehicle" class="com.transport.Bus" /\>** (using xml based configuration)
 
-> ###Ways to inject dependencies:
+ ### Ways to inject dependencies:
 
->> 1. Setter Based Injections -
-	> uses property inside the bean tag to inject dependencies via setter based injection.   
-	**<bean id = "person" class = "com.example.Person">  <property name = "name" value = "Gagan Gaur"/>       <bean>**
+ 1. Setter Based Injections -
+	 uses property inside the bean tag to inject dependencies via setter based injection.   
+	**<bean id = "person" class = "com.example.Person"\>  <property name = "name" value = "Gagan Gaur"/\>       <bean\>**
 	
->> 2. Constructor Based Injections -> **<constructor-arg value="10" type="int"> </constructor-arg>**
+ 2. Constructor Based Injections -> **<constructor-arg value="10" type="int"\> </constructor-arg\>**
 	
